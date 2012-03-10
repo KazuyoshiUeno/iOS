@@ -1,0 +1,61 @@
+iOSライブラリ／サンプル
+
+------------------------------------------
+・unZipTest
+ZipArchiveライブラリを使った、
+zipファイルのunzipテストサンプルプログラム
+
+※iOS4以降で使えるように修正
+
+
+------------------------------------------
+・CoreAudio
+- iPhoneCoreAudio.h/.m
+　AudioUnit正準形／オーディオ正準形
+　のどちらのASBDを使用するかを決めるC関数を
+　クラスにしたものです。
+
+
+------------------------------------------
+・Facebookいいね！サンプルプログラム
+　brow-FacebookLikeView-138e63c
+　
+　
+------------------------------------------
+・CTAlertView
+　block構文で使えるUIAlertViewカスタムクラス
+　http://tech.caph.jp/2011/05/10/uialertviewとuiactionsheetをblocksで使いやすくする/
+　
+　[使い方]
+　CTAlertView *alert = [[[CTAlertView alloc] initWithTitle:@"title" message:@"message" cancelButtonTitle:@"Cancel"] autorelease];
+	[alert setCancelButtonCallback:^(CTAlertView *alertView, NSInteger index) {
+    	// Cancel action
+	}];
+	[alert addButtonWithTitle:@"Foo" callback:^(CTAlertView *alertView, NSInteger index) {
+	    // Foo action
+	}];
+	[alert addButtonWithTitle:@"Bar" callback:^(CTAlertView *alertView, NSInteger index) {
+    // Bar action
+	}];
+	[alert show];
+	
+	
+-----------------------------------------
+・appunite-CLCascade
+	iPadのTwitterアプリの様なスライド式表示のクラス
+
+
+----------------------------------------
+・DDProgress
+	プログレスバークラス
+	
+
+----------------------------------------
+・fmdb
+	sqlite3 Objectice-Cラッパークラス
+
+
+----------------------------------------
+・EGOTableViewPullRefresh
+　テーブルビューで引っ張ってリロードとかするクラス
+　※Twitterクライアントアプリとかでやってるやつ
