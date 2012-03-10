@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6EA8CB01456D25200817157 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6EA8CAF1456D25200817157 /* Foundation.framework */; };
+		B6EA8CBF1456D2EC00817157 /* Cascade.h in Headers */ = {isa = PBXBuildFile; fileRef = B6EA8CBE1456D2EC00817157 /* Cascade.h */; };
+		B6EA8CE21456D53200817157 /* CLCascadeNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = B6EA8CC11456D53200817157 /* CLCascadeNavigationController.h */; };
+		B6EA8CE31456D53200817157 /* CLCascadeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EA8CC21456D53200817157 /* CLCascadeNavigationController.m */; };
+		B6EA8CE41456D53200817157 /* CLCascadeView.h in Headers */ = {isa = PBXBuildFile; fileRef = B6EA8CC31456D53200817157 /* CLCascadeView.h */; };
+		B6EA8CE51456D53200817157 /* CLCascadeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EA8CC41456D53200817157 /* CLCascadeView.m */; };
+		B6EA8CE61456D53200817157 /* CLCategoriesView.h in Headers */ = {isa = PBXBuildFile; fileRef = B6EA8CC61456D53200817157 /* CLCategoriesView.h */; };
+		B6EA8CE71456D53200817157 /* CLCategoriesView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EA8CC71456D53200817157 /* CLCategoriesView.m */; };
+		B6EA8CE81456D53200817157 /* CLCategoriesViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B6EA8CC81456D53200817157 /* CLCategoriesViewController.h */; };
+		B6EA8CE91456D53200817157 /* CLCategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EA8CC91456D53200817157 /* CLCategoriesViewController.m */; };
+		B6EA8CEA1456D53200817157 /* CLTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B6EA8CCB1456D53200817157 /* CLTableViewController.h */; };
+		B6EA8CEB1456D53200817157 /* CLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EA8CCC1456D53200817157 /* CLTableViewController.m */; };
+		B6EA8CEC1456D53200817157 /* CLViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B6EA8CCD1456D53200817157 /* CLViewController.h */; };
+		B6EA8CED1456D53200817157 /* CLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EA8CCE1456D53200817157 /* CLViewController.m */; };
+		B6EA8CEE1456D53200817157 /* CLViewControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B6EA8CCF1456D53200817157 /* CLViewControllerDelegate.h */; };
+		B6EA8CEF1456D53200817157 /* CLWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B6EA8CD01456D53200817157 /* CLWebViewController.h */; };
+		B6EA8CF01456D53200817157 /* CLWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EA8CD11456D53200817157 /* CLWebViewController.m */; };
+		B6EA8CF11456D53200817157 /* CLSplitCascadeView.h in Headers */ = {isa = PBXBuildFile; fileRef = B6EA8CD31456D53200817157 /* CLSplitCascadeView.h */; };
+		B6EA8CF21456D53200817157 /* CLSplitCascadeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EA8CD41456D53200817157 /* CLSplitCascadeView.m */; };
+		B6EA8CF31456D53200817157 /* CLSplitCascadeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B6EA8CD51456D53200817157 /* CLSplitCascadeViewController.h */; };
+		B6EA8CF41456D53200817157 /* CLSplitCascadeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EA8CD61456D53200817157 /* CLSplitCascadeViewController.m */; };
+		B6EA8CF51456D53200817157 /* CLBorderShadowView.h in Headers */ = {isa = PBXBuildFile; fileRef = B6EA8CD91456D53200817157 /* CLBorderShadowView.h */; };
+		B6EA8CF61456D53200817157 /* CLBorderShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EA8CDA1456D53200817157 /* CLBorderShadowView.m */; };
+		B6EA8CF71456D53200817157 /* CLGlobal.h in Headers */ = {isa = PBXBuildFile; fileRef = B6EA8CDB1456D53200817157 /* CLGlobal.h */; };
+		B6EA8CF81456D53200817157 /* CLScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = B6EA8CDC1456D53200817157 /* CLScrollView.h */; };
+		B6EA8CF91456D53200817157 /* CLScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EA8CDD1456D53200817157 /* CLScrollView.m */; };
+		B6EA8CFA1456D53200817157 /* CLSegmentedView.h in Headers */ = {isa = PBXBuildFile; fileRef = B6EA8CDE1456D53200817157 /* CLSegmentedView.h */; };
+		B6EA8CFB1456D53200817157 /* CLSegmentedView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EA8CDF1456D53200817157 /* CLSegmentedView.m */; };
+		B6EA8CFC1456D53200817157 /* UIViewController+CLSegmentedView.h in Headers */ = {isa = PBXBuildFile; fileRef = B6EA8CE01456D53200817157 /* UIViewController+CLSegmentedView.h */; };
+		B6EA8CFD1456D53200817157 /* UIViewController+CLSegmentedView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EA8CE11456D53200817157 /* UIViewController+CLSegmentedView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B6EA8CAC1456D25200817157 /* libCascade.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCascade.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6EA8CAF1456D25200817157 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B6EA8CB31456D25200817157 /* Cascade-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cascade-Prefix.pch"; sourceTree = "<group>"; };
+		B6EA8CBE1456D2EC00817157 /* Cascade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cascade.h; sourceTree = SOURCE_ROOT; };
+		B6EA8CC11456D53200817157 /* CLCascadeNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLCascadeNavigationController.h; sourceTree = "<group>"; };
+		B6EA8CC21456D53200817157 /* CLCascadeNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLCascadeNavigationController.m; sourceTree = "<group>"; };
+		B6EA8CC31456D53200817157 /* CLCascadeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLCascadeView.h; sourceTree = "<group>"; };
+		B6EA8CC41456D53200817157 /* CLCascadeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLCascadeView.m; sourceTree = "<group>"; };
+		B6EA8CC61456D53200817157 /* CLCategoriesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLCategoriesView.h; sourceTree = "<group>"; };
+		B6EA8CC71456D53200817157 /* CLCategoriesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLCategoriesView.m; sourceTree = "<group>"; };
+		B6EA8CC81456D53200817157 /* CLCategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLCategoriesViewController.h; sourceTree = "<group>"; };
+		B6EA8CC91456D53200817157 /* CLCategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLCategoriesViewController.m; sourceTree = "<group>"; };
+		B6EA8CCB1456D53200817157 /* CLTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLTableViewController.h; sourceTree = "<group>"; };
+		B6EA8CCC1456D53200817157 /* CLTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLTableViewController.m; sourceTree = "<group>"; };
+		B6EA8CCD1456D53200817157 /* CLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLViewController.h; sourceTree = "<group>"; };
+		B6EA8CCE1456D53200817157 /* CLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLViewController.m; sourceTree = "<group>"; };
+		B6EA8CCF1456D53200817157 /* CLViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLViewControllerDelegate.h; sourceTree = "<group>"; };
+		B6EA8CD01456D53200817157 /* CLWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLWebViewController.h; sourceTree = "<group>"; };
+		B6EA8CD11456D53200817157 /* CLWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLWebViewController.m; sourceTree = "<group>"; };
+		B6EA8CD31456D53200817157 /* CLSplitCascadeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSplitCascadeView.h; sourceTree = "<group>"; };
+		B6EA8CD41456D53200817157 /* CLSplitCascadeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSplitCascadeView.m; sourceTree = "<group>"; };
+		B6EA8CD51456D53200817157 /* CLSplitCascadeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSplitCascadeViewController.h; sourceTree = "<group>"; };
+		B6EA8CD61456D53200817157 /* CLSplitCascadeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSplitCascadeViewController.m; sourceTree = "<group>"; };
+		B6EA8CD71456D53200817157 /* CLSplitCascadeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLSplitCascadeViewController.xib; sourceTree = "<group>"; };
+		B6EA8CD91456D53200817157 /* CLBorderShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLBorderShadowView.h; sourceTree = "<group>"; };
+		B6EA8CDA1456D53200817157 /* CLBorderShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLBorderShadowView.m; sourceTree = "<group>"; };
+		B6EA8CDB1456D53200817157 /* CLGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLGlobal.h; sourceTree = "<group>"; };
+		B6EA8CDC1456D53200817157 /* CLScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLScrollView.h; sourceTree = "<group>"; };
+		B6EA8CDD1456D53200817157 /* CLScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLScrollView.m; sourceTree = "<group>"; };
+		B6EA8CDE1456D53200817157 /* CLSegmentedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSegmentedView.h; sourceTree = "<group>"; };
+		B6EA8CDF1456D53200817157 /* CLSegmentedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSegmentedView.m; sourceTree = "<group>"; };
+		B6EA8CE01456D53200817157 /* UIViewController+CLSegmentedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CLSegmentedView.h"; sourceTree = "<group>"; };
+		B6EA8CE11456D53200817157 /* UIViewController+CLSegmentedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CLSegmentedView.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6EA8CA91456D25200817157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EA8CB01456D25200817157 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6EA8CA11456D25200817157 = {
+			isa = PBXGroup;
+			children = (
+				B6EA8CB11456D25200817157 /* Cascade */,
+				B6EA8CAE1456D25200817157 /* Frameworks */,
+				B6EA8CAD1456D25200817157 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6EA8CAD1456D25200817157 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6EA8CAC1456D25200817157 /* libCascade.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6EA8CAE1456D25200817157 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6EA8CAF1456D25200817157 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6EA8CB11456D25200817157 /* Cascade */ = {
+			isa = PBXGroup;
+			children = (
+				B6EA8CC01456D53200817157 /* CLCascadeNavigationController */,
+				B6EA8CC51456D53200817157 /* CLCategories */,
+				B6EA8CCA1456D53200817157 /* CLCustomViewControllers */,
+				B6EA8CD21456D53200817157 /* CLSplitViewController */,
+				B6EA8CD81456D53200817157 /* Other */,
+				B6EA8CBE1456D2EC00817157 /* Cascade.h */,
+				B6EA8CB21456D25200817157 /* Supporting Files */,
+			);
+			path = Cascade;
+			sourceTree = "<group>";
+		};
+		B6EA8CB21456D25200817157 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6EA8CB31456D25200817157 /* Cascade-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6EA8CC01456D53200817157 /* CLCascadeNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				B6EA8CC11456D53200817157 /* CLCascadeNavigationController.h */,
+				B6EA8CC21456D53200817157 /* CLCascadeNavigationController.m */,
+				B6EA8CC31456D53200817157 /* CLCascadeView.h */,
+				B6EA8CC41456D53200817157 /* CLCascadeView.m */,
+			);
+			path = CLCascadeNavigationController;
+			sourceTree = SOURCE_ROOT;
+		};
+		B6EA8CC51456D53200817157 /* CLCategories */ = {
+			isa = PBXGroup;
+			children = (
+				B6EA8CC61456D53200817157 /* CLCategoriesView.h */,
+				B6EA8CC71456D53200817157 /* CLCategoriesView.m */,
+				B6EA8CC81456D53200817157 /* CLCategoriesViewController.h */,
+				B6EA8CC91456D53200817157 /* CLCategoriesViewController.m */,
+			);
+			path = CLCategories;
+			sourceTree = SOURCE_ROOT;
+		};
+		B6EA8CCA1456D53200817157 /* CLCustomViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B6EA8CCB1456D53200817157 /* CLTableViewController.h */,
+				B6EA8CCC1456D53200817157 /* CLTableViewController.m */,
+				B6EA8CCD1456D53200817157 /* CLViewController.h */,
+				B6EA8CCE1456D53200817157 /* CLViewController.m */,
+				B6EA8CCF1456D53200817157 /* CLViewControllerDelegate.h */,
+				B6EA8CD01456D53200817157 /* CLWebViewController.h */,
+				B6EA8CD11456D53200817157 /* CLWebViewController.m */,
+			);
+			path = CLCustomViewControllers;
+			sourceTree = SOURCE_ROOT;
+		};
+		B6EA8CD21456D53200817157 /* CLSplitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B6EA8CD31456D53200817157 /* CLSplitCascadeView.h */,
+				B6EA8CD41456D53200817157 /* CLSplitCascadeView.m */,
+				B6EA8CD51456D53200817157 /* CLSplitCascadeViewController.h */,
+				B6EA8CD61456D53200817157 /* CLSplitCascadeViewController.m */,
+				B6EA8CD71456D53200817157 /* CLSplitCascadeViewController.xib */,
+			);
+			path = CLSplitViewController;
+			sourceTree = SOURCE_ROOT;
+		};
+		B6EA8CD81456D53200817157 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				B6EA8CD91456D53200817157 /* CLBorderShadowView.h */,
+				B6EA8CDA1456D53200817157 /* CLBorderShadowView.m */,
+				B6EA8CDB1456D53200817157 /* CLGlobal.h */,
+				B6EA8CDC1456D53200817157 /* CLScrollView.h */,
+				B6EA8CDD1456D53200817157 /* CLScrollView.m */,
+				B6EA8CDE1456D53200817157 /* CLSegmentedView.h */,
+				B6EA8CDF1456D53200817157 /* CLSegmentedView.m */,
+				B6EA8CE01456D53200817157 /* UIViewController+CLSegmentedView.h */,
+				B6EA8CE11456D53200817157 /* UIViewController+CLSegmentedView.m */,
+			);
+			path = Other;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B6EA8CAA1456D25200817157 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EA8CBF1456D2EC00817157 /* Cascade.h in Headers */,
+				B6EA8CE21456D53200817157 /* CLCascadeNavigationController.h in Headers */,
+				B6EA8CE41456D53200817157 /* CLCascadeView.h in Headers */,
+				B6EA8CE61456D53200817157 /* CLCategoriesView.h in Headers */,
+				B6EA8CE81456D53200817157 /* CLCategoriesViewController.h in Headers */,
+				B6EA8CEA1456D53200817157 /* CLTableViewController.h in Headers */,
+				B6EA8CEC1456D53200817157 /* CLViewController.h in Headers */,
+				B6EA8CEE1456D53200817157 /* CLViewControllerDelegate.h in Headers */,
+				B6EA8CEF1456D53200817157 /* CLWebViewController.h in Headers */,
+				B6EA8CF11456D53200817157 /* CLSplitCascadeView.h in Headers */,
+				B6EA8CF31456D53200817157 /* CLSplitCascadeViewController.h in Headers */,
+				B6EA8CF51456D53200817157 /* CLBorderShadowView.h in Headers */,
+				B6EA8CF71456D53200817157 /* CLGlobal.h in Headers */,
+				B6EA8CF81456D53200817157 /* CLScrollView.h in Headers */,
+				B6EA8CFA1456D53200817157 /* CLSegmentedView.h in Headers */,
+				B6EA8CFC1456D53200817157 /* UIViewController+CLSegmentedView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B6EA8CAB1456D25200817157 /* Cascade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6EA8CB91456D25200817157 /* Build configuration list for PBXNativeTarget "Cascade" */;
+			buildPhases = (
+				B6EA8CA81456D25200817157 /* Sources */,
+				B6EA8CA91456D25200817157 /* Frameworks */,
+				B6EA8CAA1456D25200817157 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cascade;
+			productName = Cascade;
+			productReference = B6EA8CAC1456D25200817157 /* libCascade.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6EA8CA31456D25200817157 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B6EA8CA61456D25200817157 /* Build configuration list for PBXProject "Cascade" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B6EA8CA11456D25200817157;
+			productRefGroup = B6EA8CAD1456D25200817157 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6EA8CAB1456D25200817157 /* Cascade */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6EA8CA81456D25200817157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EA8CE31456D53200817157 /* CLCascadeNavigationController.m in Sources */,
+				B6EA8CE51456D53200817157 /* CLCascadeView.m in Sources */,
+				B6EA8CE71456D53200817157 /* CLCategoriesView.m in Sources */,
+				B6EA8CE91456D53200817157 /* CLCategoriesViewController.m in Sources */,
+				B6EA8CEB1456D53200817157 /* CLTableViewController.m in Sources */,
+				B6EA8CED1456D53200817157 /* CLViewController.m in Sources */,
+				B6EA8CF01456D53200817157 /* CLWebViewController.m in Sources */,
+				B6EA8CF21456D53200817157 /* CLSplitCascadeView.m in Sources */,
+				B6EA8CF41456D53200817157 /* CLSplitCascadeViewController.m in Sources */,
+				B6EA8CF61456D53200817157 /* CLBorderShadowView.m in Sources */,
+				B6EA8CF91456D53200817157 /* CLScrollView.m in Sources */,
+				B6EA8CFB1456D53200817157 /* CLSegmentedView.m in Sources */,
+				B6EA8CFD1456D53200817157 /* UIViewController+CLSegmentedView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B6EA8CB71456D25200817157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"./**",
+					..,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6EA8CB81456D25200817157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"./**",
+					..,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6EA8CBA1456D25200817157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Cascade.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cascade/Cascade-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B6EA8CBB1456D25200817157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Cascade.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cascade/Cascade-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6EA8CA61456D25200817157 /* Build configuration list for PBXProject "Cascade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6EA8CB71456D25200817157 /* Debug */,
+				B6EA8CB81456D25200817157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6EA8CB91456D25200817157 /* Build configuration list for PBXNativeTarget "Cascade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6EA8CBA1456D25200817157 /* Debug */,
+				B6EA8CBB1456D25200817157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6EA8CA31456D25200817157 /* Project object */;
+}

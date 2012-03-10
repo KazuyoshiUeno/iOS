@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		201A2D0813992DB900EFAE15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 201A2D0613992DB900EFAE15 /* InfoPlist.strings */; };
+		201A2D0C13992DCD00EFAE15 /* CLSplitCascadeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 201A2D0A13992DCD00EFAE15 /* CLSplitCascadeViewController.xib */; };
+		201A2D0F13992EF800EFAE15 /* Categories_header_view_289x89.png in Resources */ = {isa = PBXBuildFile; fileRef = 201A2D0E13992EF800EFAE15 /* Categories_header_view_289x89.png */; };
+		201A2D1113992F5400EFAE15 /* app_logo_32x26.png in Resources */ = {isa = PBXBuildFile; fileRef = 201A2D1013992F5400EFAE15 /* app_logo_32x26.png */; };
+		201A2D1D13992FF700EFAE15 /* brown_bg_98x98.png in Resources */ = {isa = PBXBuildFile; fileRef = 201A2D1413992FF700EFAE15 /* brown_bg_98x98.png */; };
+		201A2D1E13992FF700EFAE15 /* brown_bg_128x128.png in Resources */ = {isa = PBXBuildFile; fileRef = 201A2D1513992FF700EFAE15 /* brown_bg_128x128.png */; };
+		201A2D1F13992FF700EFAE15 /* preferences-active.png in Resources */ = {isa = PBXBuildFile; fileRef = 201A2D1613992FF700EFAE15 /* preferences-active.png */; };
+		201A2D2013992FF700EFAE15 /* preferences.png in Resources */ = {isa = PBXBuildFile; fileRef = 201A2D1713992FF700EFAE15 /* preferences.png */; };
+		201A2D2113992FF700EFAE15 /* refresh-active.png in Resources */ = {isa = PBXBuildFile; fileRef = 201A2D1813992FF700EFAE15 /* refresh-active.png */; };
+		201A2D2213992FF700EFAE15 /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 201A2D1913992FF700EFAE15 /* refresh.png */; };
+		201A2D2313992FF700EFAE15 /* star-active.png in Resources */ = {isa = PBXBuildFile; fileRef = 201A2D1A13992FF700EFAE15 /* star-active.png */; };
+		201A2D2413992FF700EFAE15 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 201A2D1B13992FF700EFAE15 /* star.png */; };
+		201A2D2513992FF700EFAE15 /* ToolBar_479x45.png in Resources */ = {isa = PBXBuildFile; fileRef = 201A2D1C13992FF700EFAE15 /* ToolBar_479x45.png */; };
+		201A2D28139931B900EFAE15 /* ExampleCategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 201A2D27139931B900EFAE15 /* ExampleCategoriesViewController.m */; };
+		201A2D2A1399331300EFAE15 /* LightBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 201A2D291399331300EFAE15 /* LightBackground.png */; };
+		201A2D371399348300EFAE15 /* ExampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 201A2D361399348300EFAE15 /* ExampleTableViewController.m */; };
+		201A2D8A13994D6500EFAE15 /* divider_vertical.png in Resources */ = {isa = PBXBuildFile; fileRef = 201A2D8913994D6400EFAE15 /* divider_vertical.png */; };
+		201A2D901399522A00EFAE15 /* ExampleSplitCascadeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 201A2D8F1399522900EFAE15 /* ExampleSplitCascadeViewController.m */; };
+		207EA49413992C0400A8200F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 207EA49313992C0400A8200F /* UIKit.framework */; };
+		207EA49613992C0400A8200F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 207EA49513992C0400A8200F /* Foundation.framework */; };
+		207EA49813992C0400A8200F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 207EA49713992C0400A8200F /* CoreGraphics.framework */; };
+		207EA49E13992C0400A8200F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 207EA49C13992C0400A8200F /* InfoPlist.strings */; };
+		207EA4A113992C0400A8200F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 207EA4A013992C0400A8200F /* main.m */; };
+		207EA4A413992C0400A8200F /* CascadeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 207EA4A313992C0400A8200F /* CascadeAppDelegate.m */; };
+		207EA4A713992C0400A8200F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 207EA4A513992C0400A8200F /* MainWindow.xib */; };
+		207EA4EC13992CE100A8200F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 207EA4EB13992CE100A8200F /* QuartzCore.framework */; };
+		209BC87514587B77005160AE /* ExampleXIBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 209BC87314587B77005160AE /* ExampleXIBViewController.m */; };
+		209BC87614587B77005160AE /* ExampleXIBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 209BC87414587B77005160AE /* ExampleXIBViewController.xib */; };
+		209E099013C8F95400BCFFD0 /* ExampleWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 209E098F13C8F95300BCFFD0 /* ExampleWebViewController.m */; };
+		209E09A113C9EF6A00BCFFD0 /* ExampleCategoriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 209E09A013C9EF6A00BCFFD0 /* ExampleCategoriesViewController.xib */; };
+		20AB8423141FA51400C11F72 /* detached_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 20AB8422141FA51400C11F72 /* detached_image.png */; };
+		20AB8427141FA55B00C11F72 /* ExampleNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AB8426141FA55B00C11F72 /* ExampleNavigationController.m */; };
+		B68075131458204B008035DC /* libCascade.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B680751214582041008035DC /* libCascade.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B680751114582041008035DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B680750A14582041008035DC /* Cascade.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B6EA8CAC1456D25200817157;
+			remoteInfo = Cascade;
+		};
+		B680751414582055008035DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B680750A14582041008035DC /* Cascade.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B6EA8CAB1456D25200817157;
+			remoteInfo = Cascade;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		201A2D0713992DB900EFAE15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		201A2D0B13992DCD00EFAE15 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CLSplitCascadeViewController.xib; sourceTree = "<group>"; };
+		201A2D0E13992EF800EFAE15 /* Categories_header_view_289x89.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Categories_header_view_289x89.png; sourceTree = "<group>"; };
+		201A2D1013992F5400EFAE15 /* app_logo_32x26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_logo_32x26.png; sourceTree = "<group>"; };
+		201A2D1413992FF700EFAE15 /* brown_bg_98x98.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brown_bg_98x98.png; sourceTree = "<group>"; };
+		201A2D1513992FF700EFAE15 /* brown_bg_128x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brown_bg_128x128.png; sourceTree = "<group>"; };
+		201A2D1613992FF700EFAE15 /* preferences-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "preferences-active.png"; sourceTree = "<group>"; };
+		201A2D1713992FF700EFAE15 /* preferences.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preferences.png; sourceTree = "<group>"; };
+		201A2D1813992FF700EFAE15 /* refresh-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh-active.png"; sourceTree = "<group>"; };
+		201A2D1913992FF700EFAE15 /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
+		201A2D1A13992FF700EFAE15 /* star-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-active.png"; sourceTree = "<group>"; };
+		201A2D1B13992FF700EFAE15 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		201A2D1C13992FF700EFAE15 /* ToolBar_479x45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ToolBar_479x45.png; sourceTree = "<group>"; };
+		201A2D26139931B900EFAE15 /* ExampleCategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleCategoriesViewController.h; sourceTree = "<group>"; };
+		201A2D27139931B900EFAE15 /* ExampleCategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleCategoriesViewController.m; sourceTree = "<group>"; };
+		201A2D291399331300EFAE15 /* LightBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LightBackground.png; sourceTree = "<group>"; };
+		201A2D351399348300EFAE15 /* ExampleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleTableViewController.h; sourceTree = "<group>"; };
+		201A2D361399348300EFAE15 /* ExampleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleTableViewController.m; sourceTree = "<group>"; };
+		201A2D8913994D6400EFAE15 /* divider_vertical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = divider_vertical.png; sourceTree = "<group>"; };
+		201A2D8E1399522900EFAE15 /* ExampleSplitCascadeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleSplitCascadeViewController.h; sourceTree = "<group>"; };
+		201A2D8F1399522900EFAE15 /* ExampleSplitCascadeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleSplitCascadeViewController.m; sourceTree = "<group>"; };
+		207EA48F13992C0400A8200F /* Cascade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cascade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		207EA49313992C0400A8200F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		207EA49513992C0400A8200F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		207EA49713992C0400A8200F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		207EA49B13992C0400A8200F /* Cascade-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cascade-Info.plist"; sourceTree = "<group>"; };
+		207EA49D13992C0400A8200F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		207EA49F13992C0400A8200F /* Cascade-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cascade-Prefix.pch"; sourceTree = "<group>"; };
+		207EA4A013992C0400A8200F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		207EA4A213992C0400A8200F /* CascadeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CascadeAppDelegate.h; sourceTree = "<group>"; };
+		207EA4A313992C0400A8200F /* CascadeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CascadeAppDelegate.m; sourceTree = "<group>"; };
+		207EA4A613992C0400A8200F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		207EA4EB13992CE100A8200F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		209BC87214587B77005160AE /* ExampleXIBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleXIBViewController.h; sourceTree = "<group>"; };
+		209BC87314587B77005160AE /* ExampleXIBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleXIBViewController.m; sourceTree = "<group>"; };
+		209BC87414587B77005160AE /* ExampleXIBViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExampleXIBViewController.xib; sourceTree = "<group>"; };
+		209E098E13C8F95300BCFFD0 /* ExampleWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleWebViewController.h; sourceTree = "<group>"; };
+		209E098F13C8F95300BCFFD0 /* ExampleWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleWebViewController.m; sourceTree = "<group>"; };
+		209E09A013C9EF6A00BCFFD0 /* ExampleCategoriesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExampleCategoriesViewController.xib; sourceTree = "<group>"; };
+		20AB8422141FA51400C11F72 /* detached_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detached_image.png; sourceTree = "<group>"; };
+		20AB8425141FA55B00C11F72 /* ExampleNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleNavigationController.h; sourceTree = "<group>"; };
+		20AB8426141FA55B00C11F72 /* ExampleNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleNavigationController.m; sourceTree = "<group>"; };
+		B680750A14582041008035DC /* Cascade.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cascade.xcodeproj; path = ../../src/Cascade/Cascade.xcodeproj; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		207EA48C13992C0400A8200F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68075131458204B008035DC /* libCascade.a in Frameworks */,
+				207EA4EC13992CE100A8200F /* QuartzCore.framework in Frameworks */,
+				207EA49413992C0400A8200F /* UIKit.framework in Frameworks */,
+				207EA49613992C0400A8200F /* Foundation.framework in Frameworks */,
+				207EA49813992C0400A8200F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		201A2D0D13992EF800EFAE15 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				20AB8422141FA51400C11F72 /* detached_image.png */,
+				201A2D291399331300EFAE15 /* LightBackground.png */,
+				201A2D1413992FF700EFAE15 /* brown_bg_98x98.png */,
+				201A2D8913994D6400EFAE15 /* divider_vertical.png */,
+				201A2D1513992FF700EFAE15 /* brown_bg_128x128.png */,
+				201A2D1613992FF700EFAE15 /* preferences-active.png */,
+				201A2D1813992FF700EFAE15 /* refresh-active.png */,
+				201A2D1713992FF700EFAE15 /* preferences.png */,
+				201A2D1913992FF700EFAE15 /* refresh.png */,
+				201A2D1A13992FF700EFAE15 /* star-active.png */,
+				201A2D1B13992FF700EFAE15 /* star.png */,
+				201A2D1C13992FF700EFAE15 /* ToolBar_479x45.png */,
+				201A2D1013992F5400EFAE15 /* app_logo_32x26.png */,
+				201A2D0E13992EF800EFAE15 /* Categories_header_view_289x89.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		207EA48413992C0400A8200F = {
+			isa = PBXGroup;
+			children = (
+				207EA49913992C0400A8200F /* Cascade */,
+				207EA49213992C0400A8200F /* Frameworks */,
+				207EA49013992C0400A8200F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		207EA49013992C0400A8200F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				207EA48F13992C0400A8200F /* Cascade.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		207EA49213992C0400A8200F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B680750A14582041008035DC /* Cascade.xcodeproj */,
+				207EA49313992C0400A8200F /* UIKit.framework */,
+				207EA49513992C0400A8200F /* Foundation.framework */,
+				207EA4EB13992CE100A8200F /* QuartzCore.framework */,
+				207EA49713992C0400A8200F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		207EA49913992C0400A8200F /* Cascade */ = {
+			isa = PBXGroup;
+			children = (
+				201A2D26139931B900EFAE15 /* ExampleCategoriesViewController.h */,
+				201A2D27139931B900EFAE15 /* ExampleCategoriesViewController.m */,
+				209E09A013C9EF6A00BCFFD0 /* ExampleCategoriesViewController.xib */,
+				201A2D351399348300EFAE15 /* ExampleTableViewController.h */,
+				201A2D361399348300EFAE15 /* ExampleTableViewController.m */,
+				209E098E13C8F95300BCFFD0 /* ExampleWebViewController.h */,
+				209E098F13C8F95300BCFFD0 /* ExampleWebViewController.m */,
+				201A2D8E1399522900EFAE15 /* ExampleSplitCascadeViewController.h */,
+				201A2D8F1399522900EFAE15 /* ExampleSplitCascadeViewController.m */,
+				20AB8425141FA55B00C11F72 /* ExampleNavigationController.h */,
+				20AB8426141FA55B00C11F72 /* ExampleNavigationController.m */,
+				209BC87214587B77005160AE /* ExampleXIBViewController.h */,
+				209BC87314587B77005160AE /* ExampleXIBViewController.m */,
+				209BC87414587B77005160AE /* ExampleXIBViewController.xib */,
+				207EA49A13992C0400A8200F /* Supporting Files */,
+			);
+			path = Cascade;
+			sourceTree = "<group>";
+		};
+		207EA49A13992C0400A8200F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				201A2D0A13992DCD00EFAE15 /* CLSplitCascadeViewController.xib */,
+				207EA4A513992C0400A8200F /* MainWindow.xib */,
+				207EA4A213992C0400A8200F /* CascadeAppDelegate.h */,
+				207EA4A313992C0400A8200F /* CascadeAppDelegate.m */,
+				201A2D0613992DB900EFAE15 /* InfoPlist.strings */,
+				201A2D0D13992EF800EFAE15 /* Resources */,
+				207EA49B13992C0400A8200F /* Cascade-Info.plist */,
+				207EA49C13992C0400A8200F /* InfoPlist.strings */,
+				207EA49F13992C0400A8200F /* Cascade-Prefix.pch */,
+				207EA4A013992C0400A8200F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B680750B14582041008035DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B680751214582041008035DC /* libCascade.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		207EA48E13992C0400A8200F /* Cascade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 207EA4B013992C0400A8200F /* Build configuration list for PBXNativeTarget "Cascade" */;
+			buildPhases = (
+				207EA48B13992C0400A8200F /* Sources */,
+				207EA48C13992C0400A8200F /* Frameworks */,
+				207EA48D13992C0400A8200F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B680751514582055008035DC /* PBXTargetDependency */,
+			);
+			name = Cascade;
+			productName = Cascade;
+			productReference = 207EA48F13992C0400A8200F /* Cascade.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		207EA48613992C0400A8200F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 207EA48913992C0400A8200F /* Build configuration list for PBXProject "Cascade" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 207EA48413992C0400A8200F;
+			productRefGroup = 207EA49013992C0400A8200F /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B680750B14582041008035DC /* Products */;
+					ProjectRef = B680750A14582041008035DC /* Cascade.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				207EA48E13992C0400A8200F /* Cascade */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B680751214582041008035DC /* libCascade.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCascade.a;
+			remoteRef = B680751114582041008035DC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		207EA48D13992C0400A8200F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207EA49E13992C0400A8200F /* InfoPlist.strings in Resources */,
+				207EA4A713992C0400A8200F /* MainWindow.xib in Resources */,
+				201A2D0813992DB900EFAE15 /* InfoPlist.strings in Resources */,
+				201A2D0C13992DCD00EFAE15 /* CLSplitCascadeViewController.xib in Resources */,
+				201A2D0F13992EF800EFAE15 /* Categories_header_view_289x89.png in Resources */,
+				201A2D1113992F5400EFAE15 /* app_logo_32x26.png in Resources */,
+				201A2D1D13992FF700EFAE15 /* brown_bg_98x98.png in Resources */,
+				201A2D1E13992FF700EFAE15 /* brown_bg_128x128.png in Resources */,
+				201A2D1F13992FF700EFAE15 /* preferences-active.png in Resources */,
+				201A2D2013992FF700EFAE15 /* preferences.png in Resources */,
+				201A2D2113992FF700EFAE15 /* refresh-active.png in Resources */,
+				201A2D2213992FF700EFAE15 /* refresh.png in Resources */,
+				201A2D2313992FF700EFAE15 /* star-active.png in Resources */,
+				201A2D2413992FF700EFAE15 /* star.png in Resources */,
+				201A2D2513992FF700EFAE15 /* ToolBar_479x45.png in Resources */,
+				201A2D2A1399331300EFAE15 /* LightBackground.png in Resources */,
+				201A2D8A13994D6500EFAE15 /* divider_vertical.png in Resources */,
+				209E09A113C9EF6A00BCFFD0 /* ExampleCategoriesViewController.xib in Resources */,
+				20AB8423141FA51400C11F72 /* detached_image.png in Resources */,
+				209BC87614587B77005160AE /* ExampleXIBViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		207EA48B13992C0400A8200F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207EA4A113992C0400A8200F /* main.m in Sources */,
+				207EA4A413992C0400A8200F /* CascadeAppDelegate.m in Sources */,
+				201A2D28139931B900EFAE15 /* ExampleCategoriesViewController.m in Sources */,
+				201A2D371399348300EFAE15 /* ExampleTableViewController.m in Sources */,
+				201A2D901399522A00EFAE15 /* ExampleSplitCascadeViewController.m in Sources */,
+				209E099013C8F95400BCFFD0 /* ExampleWebViewController.m in Sources */,
+				20AB8427141FA55B00C11F72 /* ExampleNavigationController.m in Sources */,
+				209BC87514587B77005160AE /* ExampleXIBViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B680751514582055008035DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cascade;
+			targetProxy = B680751414582055008035DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		201A2D0613992DB900EFAE15 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				201A2D0713992DB900EFAE15 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		201A2D0A13992DCD00EFAE15 /* CLSplitCascadeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				201A2D0B13992DCD00EFAE15 /* en */,
+			);
+			name = CLSplitCascadeViewController.xib;
+			sourceTree = "<group>";
+		};
+		207EA49C13992C0400A8200F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				207EA49D13992C0400A8200F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		207EA4A513992C0400A8200F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				207EA4A613992C0400A8200F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		207EA4AE13992C0400A8200F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					.,
+					../../src,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-objC",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		207EA4AF13992C0400A8200F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					.,
+					../../src,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-objC",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		207EA4B113992C0400A8200F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cascade/Cascade-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Cascade/Cascade-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		207EA4B213992C0400A8200F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cascade/Cascade-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Cascade/Cascade-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		207EA48913992C0400A8200F /* Build configuration list for PBXProject "Cascade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207EA4AE13992C0400A8200F /* Debug */,
+				207EA4AF13992C0400A8200F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		207EA4B013992C0400A8200F /* Build configuration list for PBXNativeTarget "Cascade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207EA4B113992C0400A8200F /* Debug */,
+				207EA4B213992C0400A8200F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 207EA48613992C0400A8200F /* Project object */;
+}
